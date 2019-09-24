@@ -248,6 +248,9 @@ img {
 .top-section .content {
   margin: 4% 0;
 }
+.top-section .content p {
+  padding-right: 5%;
+}
 @media (max-width:500px) {
   .top-section .content p {
     font-size: 1.1rem;
@@ -259,7 +262,7 @@ img {
 }
 .bottom-section h3 {
   font-size: 3rem;
-  margin: 4% 4%;
+  margin: 4% 0;
 }
 @media (max-width:500px) {
   .bottom-section h3 {
@@ -268,6 +271,9 @@ img {
 }
 .bottom-section .content {
   margin: 4% 0;
+}
+.bottom-section .content p {
+  padding-right: 5%;
 }
 @media (max-width:500px) {
   .bottom-section .content p {
