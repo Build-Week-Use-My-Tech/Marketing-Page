@@ -337,7 +337,13 @@ img {
 @media (max-width:500px) {
   .top-section .content p {
     font-size: 1.1rem;
-    margin: 3%;
+    margin: 5% 9%;
+  }
+}
+@media (max-width:360px) {
+  .top-section .content p {
+    font-size: 1.1rem;
+    margin: 3% 9%;
   }
 }
 .bottom-section {
