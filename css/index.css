@@ -194,6 +194,8 @@ img {
   flex-direction: row;
   justify-content: center;
   width: 15%;
+  text-decoration: none;
+  color: black;
 }
 @media (max-width:500px) {
   .insideheader .navigation .anchor {
@@ -227,6 +229,7 @@ img {
   font-size: 4rem;
   font-weight: bold;
   font-family: 'PT Serif', serif;
+  text-align: justify;
 }
 @media (max-width:500px) {
   .top-text p {
@@ -235,6 +238,15 @@ img {
 }
 .top-section {
   display: flex;
+  align-items: center;
+}
+@media (max-width:500px) {
+  .top-section {
+    align-items: flex-start;
+  }
+}
+.top-section .pro {
+  width: 50%;
 }
 .top-section h3 {
   font-size: 3rem;
@@ -243,13 +255,29 @@ img {
 @media (max-width:500px) {
   .top-section h3 {
     font-size: 1.8rem;
+    display: flex;
+    align-items: center;
   }
 }
 .top-section .content {
   margin: 4% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-section .content h4 {
+  margin-top: 4%;
+}
+@media (max-width:500px) {
+  .top-section .content h4 {
+    font-size: 1.5rem;
+  }
 }
 .top-section .content p {
-  padding-right: 5%;
+  margin: 0 10%;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 @media (max-width:500px) {
   .top-section .content p {
@@ -259,21 +287,40 @@ img {
 }
 .bottom-section {
   display: flex;
+  align-items: center;
+}
+.bottom-section .pro {
+  width: 50%;
 }
 .bottom-section h3 {
   font-size: 3rem;
-  margin: 4% 0;
+  margin: 1% 0 4% 0;
 }
 @media (max-width:500px) {
   .bottom-section h3 {
     font-size: 1.8rem;
+    text-align: center;
   }
 }
 .bottom-section .content {
   margin: 4% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-section .content h4 {
+  margin-top: 3%;
+}
+@media (max-width:500px) {
+  .bottom-section .content h4 {
+    font-size: 1.5rem;
+  }
 }
 .bottom-section .content p {
-  padding-right: 5%;
+  margin: 0 10%;
+  font-size: 1.5rem;
+  text-align: justify;
 }
 @media (max-width:500px) {
   .bottom-section .content p {
@@ -296,4 +343,5 @@ img {
   font-size: 2rem;
   border-radius: 10px;
   color: white;
+  text-decoration: none;
 }
